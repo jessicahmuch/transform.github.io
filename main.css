@@ -46,21 +46,17 @@ nav ul {
       padding-right: 40px;
       transition: 1s;
 }
-
-nav.black ul {
-      background: #000;
-
+.navbar-default{
+  background:#fff;
+  border:0;
+  font-family:Poppins;
 }
 
-nav ul li {
-      display: inline-block;
-      padding: 16px 40px;;
-}
-
-nav ul li a {
-      text-decoration: none;
-      color: white;
-      font-size: 16px;
+.navbar-brand{
+  font-size:15px;
+  color:#000 !important;
+  font-weight:bold;
+  text-transform: uppercase;
 }
 
 .menu-icon {
@@ -117,6 +113,7 @@ nav ul li a {
   height: 200px;
   width: 200px;
   margin-left: 100px;
+  margin-top: 20px;
 
 }
 
@@ -124,22 +121,23 @@ nav ul li a {
 #logo p {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .yooh {
-
+   font-size: 15px;
+   font-weight: bold;
 }
 
-.yoh {
-  font-weight: lighter;
+#logo .yoh {
+  font-weight: bold;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .btn {
-   margin-left: 200px;
+   margin-left: 130px;
    border-radius: -10px;
 }
 
